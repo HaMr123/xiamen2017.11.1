@@ -1,0 +1,29 @@
+.c-header {
+  @include minWidth;
+  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid rgba(255, 255, 255, .2);
+  .inner {
+    @include clearfix;
+    .menu {
+      float: right;
+      ul {
+        @include clearfix;
+        li {
+          float: left;
+          a {
+            display: block;
+            padding: 0 30px;
+            font-family: ﻿MicrosoftYaHei;
+            font-size: 16px;
+            font-weight: normal;
+            font-style: normal;
+            font-stretch: normal;
+            line-height: 100px;
+            letter-spacing: 0px;
+            color: #ffffff;
+          }
+        }
+      }
+    }
+  }
+}

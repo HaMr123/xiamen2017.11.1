@@ -1,0 +1,81 @@
+﻿/* =====css reset===== */
+body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, a, big, em, font, img, strong, tt, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td {
+    padding: 0;
+    margin: 0;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+fieldset, img {
+    border: 0;
+}
+
+button, input, select, textarea {
+    font-size: 12px;
+}
+
+ol, ul, li {
+    list-style: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+}
+
+/* =====public===== */
+/* base */
+body {
+    margin: 0 auto;
+    font-size: 12px;
+    background: none;
+    font-family: "Microsoft YaHei", "Simsun",Arial;
+}
+
+td {
+    font-size: 12px;
+    line-height: 160%;
+}
+
+.clear {
+    clear: both;
+    overflow: hidden;
+    height: 0;
+    width: auto !important;
+    display: block !important;
+    float: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    outline: none !important;
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+}
+
+.wp {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+*.clearfix {
+    zoom: 1;
+}
+/* display */
+.hide {
+    display: none !important;
+}

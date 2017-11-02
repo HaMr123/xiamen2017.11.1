@@ -1,0 +1,22 @@
+.c-footer{
+  @include minWidth;
+  background-color: #2a2a2a;
+  .inner{
+    @include clearfix;
+    .m-foot-list{
+      float: left;
+      dt{
+        color: #fff;
+        font-size: 16px;
+      }
+      dd{
+        @include clearfix;
+        a{
+          float: left;
+          color: #fff;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
